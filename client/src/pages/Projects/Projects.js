@@ -96,7 +96,7 @@ const Projects = () => {
                    Mern Portfolio Project
                   </h5>
                 </div>
-                <a className="ad-btn" href="https://github.com/abdulrahman36371122/My-Portfolio-mern-app">
+                <a className="ad-btn" href="https://github.com/abdulrahman36371122/Portfolio-app">
                   View
                 </a>
               </div>
