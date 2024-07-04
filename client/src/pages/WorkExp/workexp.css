@@ -1,0 +1,52 @@
+.work {
+  background-color: #1387812a;
+  margin-left: 200px; /* Adjust this value based on your layout */
+  padding: 10px 0px;
+}
+
+.work-exp {
+  padding: 20px 0px;
+  max-width: 1200px; /* Adjust this value based on your layout */
+  margin: 0 auto; /* Center the container */
+}
+
+.work-exp h2 {
+  font-weight: bold;
+  color: #1e1e2c;
+}
+
+.work-exp hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.vertical-timeline-element-title {
+  color: #138781;
+}
+
+.vertical-timeline-element-subtitle {
+  color: #1e1e2ca4;
+}
+
+/* ===== DARK MODE ========== */
+#dark .work {
+  background-color: #643a6b;
+}
+
+#dark .work-exp h2 {
+  color: white;
+}
+
+/* =================== */
+
+@media (max-width: 600px) {
+  .work {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .work hr {
+    width: 280px;
+  }
+}
