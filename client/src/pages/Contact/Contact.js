@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./contact.css";
-import contactImg from "../../assests/images/contact1.jpg";
+import contactImg from "../../assests/images/contact2.jpg";
 import { FaLinkedin } from "react-icons/fa";
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
@@ -66,7 +66,7 @@ const Contact = () => {
                       <a href="https://www.linkedin.com/in/abdul-rahman-216a802bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin color="blue" size={25} className="ms-2" />
                       </a>
-                      <a href="https://github.com/abdulrahman36371122" target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/abdulRahman3070" target="_blank" rel="noopener noreferrer">
                         <BsGithub color="black" size={25} className="ms-2" />
                       </a>
                       <a href="https://www.facebook.com/profile.php?id=100056956593019&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">

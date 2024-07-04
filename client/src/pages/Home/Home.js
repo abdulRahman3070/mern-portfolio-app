@@ -19,7 +19,7 @@ const Home = () => {
     <>
       <div className="container-fluid home-container" id="home">
         <div className="theme-btn" onClick={handleTheme}>
-          {theme === "light" ? <IoIosMoon size={40} /> : <MdOutlineWbSunny size={40} />}
+          {theme === "light" ? <IoIosMoon size={25} /> : <MdOutlineWbSunny size={25} />}
         </div>
         <div className="container home-content">
           <Fade right>

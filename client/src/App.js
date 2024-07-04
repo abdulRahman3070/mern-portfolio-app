@@ -11,6 +11,7 @@ import Tada from 'react-reveal/Tada';
 import MobileNav from "./components/MobileNav/MobileNav.js";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import "./App.css";
 
 function App() {
   const [theme] = useTheme();

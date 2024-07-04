@@ -45,7 +45,7 @@ const Projects = () => {
                    Simon Says Game
                   </h5>
                 </div>
-                <a className="ad-btn" href="https://github.com/abdulrahman36371122/Simon-Says-Game">
+                <a className="ad-btn" href="https://github.com/abdulRahman3070/Simon-Says-Game">
                   View
                 </a>
               </div>
@@ -72,7 +72,7 @@ const Projects = () => {
                   Ecommerce Mern App
                   </h5>
                 </div>
-                <a className="ad-btn" href="https://github.com/abdulrahman36371122/Ecommerce-Mern-App">
+                <a className="ad-btn" href="https://github.com/abdulRahman3070/Mern--Ecommerace-app">
                   View
                 </a>
               </div>
@@ -96,7 +96,7 @@ const Projects = () => {
                    Mern Portfolio Project
                   </h5>
                 </div>
-                <a className="ad-btn" href="https://github.com/abdulrahman36371122/Portfolio-app">
+                <a className="ad-btn" href="https://github.com/abdulRahman3070/mern-portfolio-app">
                   View
                 </a>
               </div>
