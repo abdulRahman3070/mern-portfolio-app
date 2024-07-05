@@ -2,6 +2,7 @@
   padding-left: 130px;
   margin-top: 60px;
 }
+
 .techstack hr {
   color: #138781;
   width: 400px;
@@ -28,19 +29,20 @@
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   background-color: #138781;
   color: white;
-
   transition: 1s;
 }
 
 /* =============================== */
 @media (max-width: 700px) {
   .techstack {
-    padding: 0;
+    padding-left: 0;
     margin: 0;
     margin-top: 50px;
   }
 
   .techstack hr {
     width: 280px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

@@ -1,57 +1,55 @@
-
 import React, { useState } from "react";
-import "./contact.css";
-import { FaLinkedin } from "react-icons/fa";
-import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
-import { AiOutlineWhatsApp } from "react-icons/ai";
-import LightSpeed from "react-reveal/LightSpeed";
 import { toast } from "react-toastify";
 import axios from "axios";
+import "./contact.css";
+import Rotate from "react-reveal/Rotate";
+import LightSpeed from "react-reveal/LightSpeed";
+import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
+import { AiOutlineWhatsApp } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
-  const [name, setName] = useState("");
+  const [name, setname] = useState("");
   const [email, setEmail] = useState("");
   const [msg, setMsg] = useState("");
 
-  // Handle Submit
+  //handle submit button
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!name || !email || !msg) {
-      toast.error("Please Provide All Fields");
-      return;
-    }
     try {
-      const res = await axios.post("/api/v1/portfolio/send-email", {
+      if (!name || !email || !msg) {
+        toast.error("Please provide all fields");
+        return;
+      }
+      const res = await axios.post("http://localhost:8080/api/v1/portfolio/send-email", {
         name,
         email,
         msg,
       });
-      // Validation Success
+      //validation success
       if (res.data.success) {
         toast.success(res.data.message);
-        setName("");
+        setname("");
         setEmail("");
         setMsg("");
       } else {
         toast.error(res.data.message);
       }
     } catch (error) {
-      toast.error("Failed to send message. Please try again later.");
-      console.log(error);
+      console.error("Error sending email:", error);
+      toast.error("Something went wrong. Please try again later.");
     }
   };
 
   const openWhatsApp = () => {
     const message = `Hello, I'm interested in your services.`;
-    const url = `https://wa.me/923043637810?text=${encodeURIComponent(
-      message
-    )}`;
+    const url = `https://wa.me/923043637810?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
 
   return (
     <>
-      <div className=" contact" id="contact">
+      <div className="contact" id="contact">
         <div className="card card0 border-0">
           <div className="row">
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
@@ -60,7 +58,7 @@ const Contact = () => {
                   <LightSpeed>
                     <img
                       src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg?w=2000"
-                      alt="ocontact"
+                      alt="contact"
                       className="image"
                     />
                   </LightSpeed>
