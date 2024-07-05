@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 import Layout from "./components/Layout/Layout";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
@@ -46,7 +45,3 @@ function App() {
 }
 
 export default App;
-=======
->>>>>>> af53cc0779555fd6e43811ed8d6edc2949f04667
-=======
->>>>>>> af53cc0779555fd6e43811ed8d6edc2949f04667
