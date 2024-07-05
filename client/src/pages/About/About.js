@@ -12,7 +12,7 @@ const About = () => {
             <img src={profilePic} alt="profile_pic" />
           </div>
           <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
-            <h1>About Me</h1>
+            <h1><i>About Me</i></h1>
             <p>
               I have successfully achieved my goals in my life, I am going to
               present my qualification and personal information.

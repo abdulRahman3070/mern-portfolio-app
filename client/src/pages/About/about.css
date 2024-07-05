@@ -20,8 +20,8 @@
 }
 
 .about-content h1 {
-  color: gray;
-  font-family: cursive;
+  color: rgb(40, 247, 12);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-bottom: 2px solid gray;
   text-align: center;
 }
