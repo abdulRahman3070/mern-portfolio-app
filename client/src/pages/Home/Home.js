@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
@@ -62,5 +63,7 @@ const Home = () => {
 };
 
 export default Home;
+=======
+>>>>>>> af53cc0779555fd6e43811ed8d6edc2949f04667
 =======
 >>>>>>> af53cc0779555fd6e43811ed8d6edc2949f04667

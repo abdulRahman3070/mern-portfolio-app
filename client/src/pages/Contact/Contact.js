@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { useState } from "react";
 import "./contact.css";
 import contactImg from "../../assests/images/contact1.jpg";
@@ -178,5 +179,7 @@ const Contact = () => {
 };
 
 export default Contact;
+=======
+>>>>>>> af53cc0779555fd6e43811ed8d6edc2949f04667
 =======
 >>>>>>> af53cc0779555fd6e43811ed8d6edc2949f04667
