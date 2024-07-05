@@ -8,10 +8,12 @@ import Fade from "react-reveal/Fade";
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
-  //handle theme
+
+  // Handle theme toggle
   const handleTheme = () => {
     setTheme((prevState) => (prevState === "light" ? "dark" : "light"));
   };
+
   return (
     <>
       <div className="container-fluid home-container" id="home">
@@ -30,8 +32,9 @@ const Home = () => {
                 options={{
                   strings: [
                     "Full Stack Developer!",
-                    "Mern Stack Developer!",
-                    "",
+                    "MERN Stack Developer!",
+                    "Frontend Developer!",
+                    "Backend Developer!"
                   ],
                   autoStart: true,
                   loop: true,
@@ -43,13 +46,17 @@ const Home = () => {
             <div className="home-buttons">
               <a
                 className="btn btn-hire"
-                href="https://api.whatsapp.com/send?phone=923043637810"
+                href="https://api.whatsapp.com/send?phone=+923043637810"
                 rel="noreferrer"
                 target="_blank"
               >
                 Hire Me
               </a>
-              <a className="btn btn-cv" href={Resume} download="My CV(Abdul Rahman)">
+              <a
+                className="btn btn-cv"
+                href={Resume}
+                download="My CV (Abdul Rahman)"
+              >
                 My Resume
               </a>
             </div>
