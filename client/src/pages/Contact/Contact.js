@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 import React, { useState } from "react";
 import "./contact.css";
-import contactImg from "../../assests/images/contact1.jpg";
 import { FaLinkedin } from "react-icons/fa";
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
-import Fade from "react-reveal/Fade";
 import LightSpeed from "react-reveal/LightSpeed";
 import { toast } from "react-toastify";
 import axios from "axios";
@@ -179,7 +176,3 @@ const Contact = () => {
 };
 
 export default Contact;
-=======
->>>>>>> af53cc0779555fd6e43811ed8d6edc2949f04667
-=======
->>>>>>> af53cc0779555fd6e43811ed8d6edc2949f04667
