@@ -18,9 +18,9 @@ const sendEmailController = (req, res) => {
 
     // Define the email details
     const emailDetails = {
-      From: process.env.EMAIL_FROM,   // Sender's email address (configured in Postmark)
-      To: "2019gu3557@student.gudgk.edu.pk",    // Recipient's email address (replace with dynamic value if needed)
-      Subject: "Regarding Mern Portfolio App",  // Email subject
+      From: process.env.EMAIL_FROM, // Sender's email address (configured in Postmark)
+      To: "2019gu3557@student.gudgk.edu.pk", // Recipient's email address (replace with dynamic value if needed)
+      Subject: "Regarding Mern Portfolio App", // Email subject
       HtmlBody: `
         <h5>Detail Information</h5>
         <ul>
@@ -28,7 +28,7 @@ const sendEmailController = (req, res) => {
           <li><p>Email: ${email}</p></li>
           <li><p>Message: ${msg}</p></li>
         </ul>
-      `  // HTML body
+      ` // HTML body
     };
 
     // Send the email using Postmark

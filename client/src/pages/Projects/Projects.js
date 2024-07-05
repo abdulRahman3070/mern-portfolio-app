@@ -3,7 +3,6 @@ import "./projects.css";
 import project1 from "../../assests/images/project1.png";
 import project2 from "../../assests/images/project2.png";
 import project3 from "../../assests/images/project3.png";
-import Spin from 'react-reveal/Spin';
 
 const Projects = () => {
   return (
@@ -26,7 +25,6 @@ const Projects = () => {
         </p>
         {/* Card Design */}
         <div className="row" id="ads">
-          <Spin>
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
@@ -38,6 +36,7 @@ const Projects = () => {
                 <span className="card-detail-badge">CSS</span>
                 <span className="card-detail-badge">JavaScript</span>
                 <span className="card-detail-badge">Bootstrap</span>
+                <span className="card-detail-badge">Tailwind CSS</span>
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
@@ -89,6 +88,7 @@ const Projects = () => {
                 <span className="card-detail-badge">Express</span>
                 <span className="card-detail-badge">React js</span>
                 <span className="card-detail-badge">Mongodb</span>
+                <span className="card-detail-badge">Core-Js</span>
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
@@ -102,7 +102,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          </Spin>
         </div>
       </div>
     </>

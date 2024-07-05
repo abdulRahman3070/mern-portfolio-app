@@ -2,7 +2,9 @@ import React from "react";
 import "./workexp.css";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { SiReact } from "react-icons/si";
+import { SiAudiotechnica, SiReact } from "react-icons/si";
+import { FaUpwork } from "react-icons/fa6";
+
 
 const WorkExp = () => {
   return (
@@ -35,7 +37,7 @@ const WorkExp = () => {
             contentArrowStyle={{ borderRight: '7px solid white' }}
             date="2023 - 2024"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<SiReact />}
+            icon={<SiAudiotechnica />}
           >
             <h3 className="vertical-timeline-element-title">Mern Stack Developer</h3>
             <h4 className="vertical-timeline-element-subtitle">TRG Pakistan Limited (Private)</h4>
@@ -51,7 +53,7 @@ const WorkExp = () => {
             contentArrowStyle={{ borderRight: '7px solid white' }}
             date="2024 - present"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<SiReact />}
+            icon={<FaUpwork/>}
           >
             <h3 className="vertical-timeline-element-title">Mern Stack Developer</h3>
             <h4 className="vertical-timeline-element-subtitle">Arbisoft Limited (Private)</h4>
