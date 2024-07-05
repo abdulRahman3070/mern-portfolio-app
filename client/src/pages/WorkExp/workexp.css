@@ -1,48 +1,49 @@
-.techstack {
-  padding-left: 130px;
-  margin-top: 60px;
+.work {
+  background-color: #1387812a;
+  margin-left: 140px;
 }
 
-.techstack hr {
+.work-exp {
+  padding: 60px 0px;
+}
+
+.work-exp h2 {
+  font-weight: bold;
+  color: #1e1e2c;
+}
+
+.work-exp hr {
   color: #138781;
   width: 400px;
   margin: 10px auto;
 }
 
-.techstack h2 {
-  font-weight: bold;
+.work-exp .vertical-timeline-element-title {
   color: #138781;
 }
 
-.techstack .card {
-  cursor: pointer;
+.work-exp .vertical-timeline-element-subtitle {
+  color: #1e1e2c78;
 }
 
-.techstack .tech-icon {
-  font-size: 2rem;
-  margin-right: 10px;
+/* ===== DARK MODE ========== */
+#dark .work {
+  background-color: #643a6b;
 }
 
-.techstack .card:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  background-color: #138781;
+#dark .work-exp h2 {
   color: white;
-  transition: 1s;
 }
 
-/* =============================== */
+/* =================== */
+
 @media (max-width: 700px) {
-  .techstack {
-    padding-left: 0;
+  .work {
     margin: 0;
+    padding: 0;
     margin-top: 50px;
   }
-
-  .techstack hr {
+  .work hr {
     width: 280px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
