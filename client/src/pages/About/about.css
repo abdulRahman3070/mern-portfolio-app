@@ -53,6 +53,7 @@
   }
   .about-img img {
     height: auto; /* Adjust image height for responsiveness */
+    margin-top: 10px;
   }
   .about-content h1 {
     margin-top: 10px;

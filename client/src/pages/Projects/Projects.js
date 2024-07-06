@@ -96,7 +96,7 @@ const Projects = () => {
                    Mern Portfolio Project
                   </h5>
                 </div>
-                <a className="ad-btn" href="https://github.com/abdulRahman3070/mern-portfolio-app">
+                <a className="ad-btn" href="https://abdulrahman786.netlify.app/">
                   View
                 </a>
               </div>

@@ -57,7 +57,7 @@ const Contact = () => {
                 <div className="row border-line">
                   <LightSpeed>
                     <img
-                      src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg?w=2000"
+                    src="https://img.freepik.com/free-photo/contact-register-feedback-support-help-concept_53876-124243.jpg?t=st=1720235172~exp=1720238772~hmac=d3bc9dc951c29b32ee86120ef25589f51147f3fa66fefb642ca5bf127ba1a055&w=740"
                       alt="contact"
                       className="image"
                     />
