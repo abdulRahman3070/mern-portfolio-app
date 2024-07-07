@@ -9,14 +9,7 @@ import {
   SiWordpress,
   SiExpress,
   SiTailwindcss,
-  SiFirebase,
-  SiDocker,
-  SiNginx,
   SiTypescript,
-  SiMui,
-  SiFigma,
-  SiAdobexd,
-  SiAdobephotoshop,
   SiCanva,
 } from "react-icons/si";
 export const TechstackList = [
@@ -90,50 +83,17 @@ export const TechstackList = [
     name: "SQL ",
     icon: SiMysql,
   },
+
   {
     _id: 15,
-    name: "Firebase ",
-    icon: SiFirebase,
-  },
-  {
-    _id: 16,
-    name: "Docker ",
-    icon: SiDocker,
-  },
-  {
-    _id: 17,
-    name: "Nginx ",
-    icon: SiNginx,
-  },
-  {
-    _id: 18,
     name: "TypeScript",
     icon: SiTypescript,
   },
 
   {
-    _id: 19,
+    _id: 16,
     name: "React JS",
     icon: SiReact,
   },
-  {
-    _id: 20,
-    name: "React MUI",
-    icon: SiMui,
-  },
-  {
-    _id: 22,
-    name: "Figma ",
-    icon: SiFigma,
-  },
-  {
-    _id: 23,
-    name: "Adobe XD ",
-    icon: SiAdobexd,
-  },
-  {
-    _id: 24,
-    name: "Photoshop ",
-    icon: SiAdobephotoshop,
-  },
+
 ];

@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { toast } from "react-toastify";
 import axios from "axios";
 import "./contact.css";
-import Rotate from "react-reveal/Rotate";
-import LightSpeed from "react-reveal/LightSpeed";
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
@@ -55,18 +53,15 @@ const Contact = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
               <div className="card1">
                 <div className="row border-line">
-                  <LightSpeed>
                     <img
                     src="https://img.freepik.com/free-photo/contact-register-feedback-support-help-concept_53876-124243.jpg?t=st=1720235172~exp=1720238772~hmac=d3bc9dc951c29b32ee86120ef25589f51147f3fa66fefb642ca5bf127ba1a055&w=740"
                       alt="contact"
                       className="image"
                     />
-                  </LightSpeed>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
-              <Rotate>
                 <div className="card2 d-flex card border-0 px-4 py-5">
                   <div className="row">
                     <div className="row">
@@ -164,7 +159,6 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-              </Rotate>
             </div>
           </div>
         </div>

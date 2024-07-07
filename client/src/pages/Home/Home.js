@@ -19,9 +19,9 @@ const Home = () => {
       <div className="container-fluid home-container" id="home">
         <div className="theme-btn" onClick={handleTheme}>
           {theme === "light" ? (
-            <BsFillMoonStarsFill size={15} />
+            <BsFillMoonStarsFill size={13} />
           ) : (
-            <BsFillSunFill size={15} />
+            <BsFillSunFill size={13} />
           )}
         </div>
         <div className="container home-content">
